@@ -1,0 +1,956 @@
+[
+  {
+    "adres": "Warszawa, ul. Grzybowska 37",
+    "godziny": [
+      {
+        "Friday": "10:00 - 19:00",
+        "Monday": "10:00 - 19:00",
+        "Saturday": "brak danych",
+        "Sunday": "brak danych",
+        "Thursday": "10:00 - 19:00",
+        "Tuesday": "10:00 - 19:00",
+        "Wednesday": "10:00 - 19:00"
+      }
+    ],
+    "latitude": "52.2351646",
+    "logo": "https://static.okazjum.pl/storage/okazjum/uploads/uploads/contractor/logo/6/s3_logo_alsen_siec-handlowa.jpg",
+    "longitude": "20.9942039",
+    "siec": "Alsen"
+  },
+  {
+    "adres": "Warszawa, al. Jana Pawła II 52/54",
+    "godziny": [
+      {
+        "Friday": "24h",
+        "Monday": "24h",
+        "Saturday": "24h",
+        "Sunday": "24h",
+        "Thursday": "24h",
+        "Tuesday": "24h",
+        "Wednesday": "24h"
+      }
+    ],
+    "latitude": "52.2446115",
+    "logo": "https://static.okazjum.pl/storage/okazjum/uploads/uploads/contractor/logo/120/s3_logo_apteka1_siec-handlowa.jpg",
+    "longitude": "20.9919215",
+    "siec": "Apteka1"
+  },
+  {
+    "adres": "Warszawa, ul. Nowolipki 27",
+    "godziny": [
+      {
+        "Friday": "08:00 - 20:00",
+        "Monday": "08:00 - 20:00",
+        "Saturday": "08:00 - 14:00",
+        "Sunday": "brak danych",
+        "Thursday": "08:00 - 20:00",
+        "Tuesday": "08:00 - 20:00",
+        "Wednesday": "08:00 - 20:00"
+      }
+    ],
+    "latitude": "52.242332",
+    "logo": "https://static.okazjum.pl/storage/okazjum/uploads/uploads/contractor/logo/120/s3_logo_apteka1_siec-handlowa.jpg",
+    "longitude": "20.9844389",
+    "siec": "Apteka1"
+  },
+  {
+    "adres": "Warszawa, ul. Grzybowska 12/14",
+    "godziny": [
+      {
+        "Friday": "07:00 - 21:00",
+        "Monday": "07:00 - 21:00",
+        "Saturday": "07:00 - 21:00",
+        "Sunday": "09:00 - 20:00",
+        "Thursday": "07:00 - 21:00",
+        "Tuesday": "07:00 - 21:00",
+        "Wednesday": "07:00 - 21:00"
+      }
+    ],
+    "latitude": "52.2378869",
+    "logo": "https://static.okazjum.pl/storage/okazjum/uploads/uploads/contractor/logo/13/s3_logo_biedronka_siec-handlowa.jpg",
+    "longitude": "20.9995257",
+    "siec": "Biedronka"
+  },
+  {
+    "adres": "Warszawa, ul. Żelazna 58/62",
+    "godziny": [
+      {
+        "Friday": "08:00 - 20:00",
+        "Monday": "08:00 - 20:00",
+        "Saturday": "09:00 - 14:00",
+        "Sunday": "brak danych",
+        "Thursday": "08:00 - 20:00",
+        "Tuesday": "08:00 - 20:00",
+        "Wednesday": "08:00 - 20:00"
+      }
+    ],
+    "latitude": "52.235411",
+    "logo": "https://static.okazjum.pl/storage/okazjum/uploads/uploads/contractor/logo/131/s3_logo_cefarm_siec-handlowa.jpg",
+    "longitude": "20.990744",
+    "siec": "Cefarm"
+  },
+  {
+    "adres": "Warszawa, ul. Elektoralna 24",
+    "godziny": [
+      {
+        "Friday": "08:00 - 20:00",
+        "Monday": "08:00 - 20:00",
+        "Saturday": "08:30 - 14:30",
+        "Sunday": "brak danych",
+        "Thursday": "08:00 - 20:00",
+        "Tuesday": "08:00 - 20:00",
+        "Wednesday": "08:00 - 20:00"
+      }
+    ],
+    "latitude": "52.2393439",
+    "logo": "https://static.okazjum.pl/storage/okazjum/uploads/uploads/contractor/logo/131/s3_logo_cefarm_siec-handlowa.jpg",
+    "longitude": "20.994642",
+    "siec": "Cefarm"
+  },
+  {
+    "adres": "Warszawa, ul. Karmelicka 19",
+    "godziny": [
+      {
+        "Friday": "08:00 - 20:00",
+        "Monday": "08:00 - 20:00",
+        "Saturday": "08:00 - 15:00",
+        "Sunday": "brak danych",
+        "Thursday": "08:00 - 20:00",
+        "Tuesday": "08:00 - 20:00",
+        "Wednesday": "08:00 - 20:00"
+      }
+    ],
+    "latitude": "52.2489365",
+    "logo": "https://static.okazjum.pl/storage/okazjum/uploads/uploads/contractor/logo/131/s3_logo_cefarm_siec-handlowa.jpg",
+    "longitude": "20.9906584",
+    "siec": "Cefarm"
+  },
+  {
+    "adres": "Warszawa, ul. Karmelicka 26",
+    "godziny": [
+      {
+        "Friday": "08:00 - 20:00",
+        "Monday": "08:00 - 20:00",
+        "Saturday": "08:00 - 13:00",
+        "Sunday": "brak danych",
+        "Thursday": "08:00 - 20:00",
+        "Tuesday": "08:00 - 20:00",
+        "Wednesday": "08:00 - 20:00"
+      }
+    ],
+    "latitude": "52.250665",
+    "logo": "https://static.okazjum.pl/storage/okazjum/uploads/uploads/contractor/logo/131/s3_logo_cefarm_siec-handlowa.jpg",
+    "longitude": "20.9900479",
+    "siec": "Cefarm"
+  },
+  {
+    "adres": "Warszawa, pl. Żelaznej Bramy 1",
+    "godziny": [
+      {
+        "Friday": "07:00 - 21:00",
+        "Monday": "07:00 - 21:00",
+        "Saturday": "07:00 - 21:00",
+        "Sunday": "09:00 - 18:00",
+        "Thursday": "07:00 - 21:00",
+        "Tuesday": "07:00 - 21:00",
+        "Wednesday": "07:00 - 21:00"
+      }
+    ],
+    "latitude": "52.239432",
+    "logo": "https://static.okazjum.pl/storage/okazjum/uploads/uploads/contractor/logo/53/s3_logo_marcpol_siec-handlowa.jpg",
+    "longitude": "21.0000007",
+    "siec": "MarcPol"
+  },
+  {
+    "adres": "Warszawa, ul. Nowolipki 13",
+    "godziny": [
+      {
+        "Friday": "brak danych",
+        "Monday": "brak danych",
+        "Saturday": "brak danych",
+        "Sunday": "brak danych",
+        "Thursday": "brak danych",
+        "Tuesday": "brak danych",
+        "Wednesday": "brak danych"
+      }
+    ],
+    "latitude": "52.2451674",
+    "logo": "https://static.okazjum.pl/storage/okazjum/uploads/uploads/contractor/logo/101/s3_logo_abc_siec-handlowa.jpg",
+    "longitude": "20.9934515",
+    "siec": "abc"
+  },
+  {
+    "adres": "Warszawa, ul. Chłodna ",
+    "godziny": [
+      {
+        "Friday": "06:00 - 23:00",
+        "Monday": "06:00 - 23:00",
+        "Saturday": "06:00 - 23:00",
+        "Sunday": "06:00 - 23:00",
+        "Thursday": "06:00 - 23:00",
+        "Tuesday": "06:00 - 23:00",
+        "Wednesday": "06:00 - 23:00"
+      }
+    ],
+    "latitude": "52.2368295",
+    "logo": "https://static.okazjum.pl/storage/okazjum/uploads/uploads/contractor/logo/99/s3_logo_Zabka_siec-handlowa.jpg",
+    "longitude": "20.9876185",
+    "siec": "Żabka"
+  },
+  {
+    "adres": "Warszawa, ul. Elektoralna 12A",
+    "godziny": [
+      {
+        "Friday": "06:00 - 23:00",
+        "Monday": "06:00 - 23:00",
+        "Saturday": "06:00 - 23:00",
+        "Sunday": "06:00 - 23:00",
+        "Thursday": "06:00 - 23:00",
+        "Tuesday": "06:00 - 23:00",
+        "Wednesday": "06:00 - 23:00"
+      }
+    ],
+    "latitude": "52.2407174",
+    "logo": "https://static.okazjum.pl/storage/okazjum/uploads/uploads/contractor/logo/99/s3_logo_Zabka_siec-handlowa.jpg",
+    "longitude": "20.9967613",
+    "siec": "Żabka"
+  },
+  {
+    "adres": "Warszawa, ul. Karmelicka 21",
+    "godziny": [
+      {
+        "Friday": "06:00 - 20:00",
+        "Monday": "06:00 - 20:00",
+        "Saturday": "07:00 - 20:00",
+        "Sunday": "06:00 - 02:00",
+        "Thursday": "06:00 - 20:00",
+        "Tuesday": "06:00 - 20:00",
+        "Wednesday": "06:00 - 20:00"
+      }
+    ],
+    "latitude": "52.2497696",
+    "logo": "https://static.okazjum.pl/storage/okazjum/uploads/uploads/contractor/logo/147/s3_logo_minuta-8_siec-handlowa.jpg",
+    "longitude": "20.9899633",
+    "siec": "Minuta 8"
+  },
+  {
+    "adres": "Warszawa, ul. Jana Pawła II 36",
+    "godziny": [
+      {
+        "Friday": "10:00 - 18:00",
+        "Monday": "10:00 - 18:00",
+        "Saturday": "brak danych",
+        "Sunday": "brak danych",
+        "Thursday": "10:00 - 18:00",
+        "Tuesday": "10:00 - 18:00",
+        "Wednesday": "10:00 - 18:00"
+      }
+    ],
+    "latitude": "52.2404817",
+    "logo": "https://static.okazjum.pl/storage/okazjum/uploads/uploads/contractor/logo/108/s3_logo_ab-foto_siec-handlowa.jpg",
+    "longitude": "20.9956716",
+    "siec": "AB Foto"
+  },
+  {
+    "adres": "Warszawa, pl. Jana Henryka Dąbrowskiego 71",
+    "godziny": [
+      {
+        "Friday": "brak danych",
+        "Monday": "brak danych",
+        "Saturday": "brak danych",
+        "Sunday": "brak danych",
+        "Thursday": "brak danych",
+        "Tuesday": "brak danych",
+        "Wednesday": "brak danych"
+      }
+    ],
+    "latitude": "52.2375083",
+    "logo": "https://static.okazjum.pl/storage/okazjum/uploads/uploads/contractor/logo/140/s3_logo_farmutil_siec-handlowa.jpg",
+    "longitude": "21.0085977",
+    "siec": "Farmutil"
+  },
+  {
+    "adres": "Warszawa, al. \"Solidarności\" 149",
+    "godziny": [
+      {
+        "Friday": "24h",
+        "Monday": "24h",
+        "Saturday": "24h",
+        "Sunday": "24h",
+        "Thursday": "24h",
+        "Tuesday": "24h",
+        "Wednesday": "24h"
+      }
+    ],
+    "latitude": "52.239688",
+    "logo": "https://static.okazjum.pl/storage/okazjum/uploads/uploads/contractor/logo/120/s3_logo_apteka1_siec-handlowa.jpg",
+    "longitude": "20.987664",
+    "siec": "Apteka1"
+  },
+  {
+    "adres": "Warszawa, al. \"Solidarności\" 60A",
+    "godziny": [
+      {
+        "Friday": "brak danych",
+        "Monday": "brak danych",
+        "Saturday": "brak danych",
+        "Sunday": "brak danych",
+        "Thursday": "brak danych",
+        "Tuesday": "brak danych",
+        "Wednesday": "brak danych"
+      }
+    ],
+    "latitude": "52.2461579",
+    "logo": "https://static.okazjum.pl/storage/okazjum/uploads/uploads/contractor/logo/140/s3_logo_farmutil_siec-handlowa.jpg",
+    "longitude": "21.0048749",
+    "siec": "Farmutil"
+  },
+  {
+    "adres": "Warszawa, al. \"Solidarności\" ",
+    "godziny": [
+      {
+        "Friday": "brak danych",
+        "Monday": "brak danych",
+        "Saturday": "brak danych",
+        "Sunday": "brak danych",
+        "Thursday": "brak danych",
+        "Tuesday": "brak danych",
+        "Wednesday": "brak danych"
+      }
+    ],
+    "latitude": "52.2418799",
+    "logo": "https://static.okazjum.pl/storage/okazjum/uploads/uploads/contractor/logo/50/s3_logo_komputronik_siec-handlowa.jpg",
+    "longitude": "20.9937999",
+    "siec": "Komputronik"
+  },
+  {
+    "adres": "Warszawa, al. \"Solidarności\" 82",
+    "godziny": [
+      {
+        "Friday": "10:00 - 19:00",
+        "Monday": "10:00 - 19:00",
+        "Saturday": "10:00 - 14:00",
+        "Sunday": "brak danych",
+        "Thursday": "10:00 - 19:00",
+        "Tuesday": "10:00 - 19:00",
+        "Wednesday": "10:00 - 19:00"
+      }
+    ],
+    "latitude": "52.242491",
+    "logo": "https://static.okazjum.pl/storage/okazjum/uploads/uploads/contractor/logo/50/s3_logo_komputronik_siec-handlowa.jpg",
+    "longitude": "20.9944229",
+    "siec": "Komputronik"
+  },
+  {
+    "adres": "Warszawa, al. Jana Pawła II 36",
+    "godziny": [
+      {
+        "Friday": "brak danych",
+        "Monday": "brak danych",
+        "Saturday": "brak danych",
+        "Sunday": "brak danych",
+        "Thursday": "brak danych",
+        "Tuesday": "brak danych",
+        "Wednesday": "brak danych"
+      }
+    ],
+    "latitude": "52.2404817",
+    "logo": "https://static.okazjum.pl/storage/okazjum/uploads/uploads/contractor/logo/54/s3_logo_marionnaud_siec-handlowa.jpg",
+    "longitude": "20.9956716",
+    "siec": "Marionnaud"
+  },
+  {
+    "adres": "Warszawa, al. Solidarności 155",
+    "godziny": [
+      {
+        "Friday": "09:00 - 20:30",
+        "Monday": "09:00 - 20:30",
+        "Saturday": "09:00 - 16:30",
+        "Sunday": "brak danych",
+        "Thursday": "09:00 - 20:30",
+        "Tuesday": "09:00 - 20:30",
+        "Wednesday": "09:00 - 20:30"
+      }
+    ],
+    "latitude": "52.2391097",
+    "logo": "https://static.okazjum.pl/storage/okazjum/uploads/uploads/contractor/logo/75/s3_logo_rossmann_siec-handlowa.jpg",
+    "longitude": "20.9862279",
+    "siec": "Rossmann"
+  },
+  {
+    "adres": "Warszawa, al. Jana Pawła II 29",
+    "godziny": [
+      {
+        "Friday": "11:00 - 19:00",
+        "Monday": "11:00 - 19:00",
+        "Saturday": "10:00 - 15:00",
+        "Sunday": "brak danych",
+        "Thursday": "11:00 - 19:00",
+        "Tuesday": "11:00 - 19:00",
+        "Wednesday": "11:00 - 19:00"
+      }
+    ],
+    "latitude": "52.2389356",
+    "logo": "https://static.okazjum.pl/storage/okazjum/uploads/uploads/contractor/logo/84/s3_logo_sony-centre_siec-handlowa.jpg",
+    "longitude": "20.9952166",
+    "siec": "Sony Centre"
+  },
+  {
+    "adres": "Warszawa, al. Jana Pawła II ",
+    "godziny": [
+      {
+        "Friday": "06:00 - 23:00",
+        "Monday": "06:00 - 23:00",
+        "Saturday": "06:00 - 23:00",
+        "Sunday": "06:00 - 23:00",
+        "Thursday": "06:00 - 23:00",
+        "Tuesday": "06:00 - 23:00",
+        "Wednesday": "06:00 - 23:00"
+      }
+    ],
+    "latitude": "52.2450172",
+    "logo": "https://static.okazjum.pl/storage/okazjum/uploads/uploads/contractor/logo/99/s3_logo_Zabka_siec-handlowa.jpg",
+    "longitude": "20.9910256",
+    "siec": "Żabka"
+  },
+  {
+    "adres": "Warszawa, al. Jana Pawła II 51",
+    "godziny": [
+      {
+        "Friday": "09:00 - 17:00",
+        "Monday": "09:00 - 17:00",
+        "Saturday": "09:00 - 14:00",
+        "Sunday": "brak danych",
+        "Thursday": "09:00 - 17:00",
+        "Tuesday": "09:00 - 17:00",
+        "Wednesday": "09:00 - 17:00"
+      }
+    ],
+    "latitude": "52.2440797",
+    "logo": "https://static.okazjum.pl/storage/okazjum/uploads/uploads/contractor/logo/6/s3_logo_alsen_siec-handlowa.jpg",
+    "longitude": "20.991938",
+    "siec": "Alsen"
+  },
+  {
+    "adres": "Warszawa, ul. Jana Pawła II 45a",
+    "godziny": [
+      {
+        "Friday": "08:00 - 21:00",
+        "Monday": "08:00 - 21:00",
+        "Saturday": "08:00 - 16:00",
+        "Sunday": "brak danych",
+        "Thursday": "08:00 - 21:00",
+        "Tuesday": "08:00 - 21:00",
+        "Wednesday": "08:00 - 21:00"
+      }
+    ],
+    "latitude": "52.243916",
+    "logo": "https://static.okazjum.pl/storage/okazjum/uploads/uploads/contractor/logo/181/s3_logo_ziko-apteka_siec-handlowa.jpg",
+    "longitude": "20.991107",
+    "siec": "Ziko Apteka"
+  },
+  {
+    "adres": "Warszawa, ul. Nowolipki 15",
+    "godziny": [
+      {
+        "Friday": "brak danych",
+        "Monday": "brak danych",
+        "Saturday": "brak danych",
+        "Sunday": "brak danych",
+        "Thursday": "brak danych",
+        "Tuesday": "brak danych",
+        "Wednesday": "brak danych"
+      }
+    ],
+    "latitude": "52.2451914",
+    "logo": "https://static.okazjum.pl/storage/okazjum/uploads/uploads/contractor/logo/183/s3_logo_bogfran_siec-handlowa.jpg",
+    "longitude": "20.9934329",
+    "siec": "BOG-FRAN"
+  },
+  {
+    "adres": "Warszawa, al. Jana Pawła II 41a",
+    "godziny": [
+      {
+        "Friday": "08:30 - 21:30",
+        "Monday": "08:30 - 21:30",
+        "Saturday": "08:30 - 18:00",
+        "Sunday": "brak danych",
+        "Thursday": "08:30 - 21:30",
+        "Tuesday": "08:30 - 21:30",
+        "Wednesday": "08:30 - 21:30"
+      }
+    ],
+    "latitude": "52.24265",
+    "logo": "https://static.okazjum.pl/storage/okazjum/uploads/uploads/contractor/logo/75/s3_logo_rossmann_siec-handlowa.jpg",
+    "longitude": "20.9921749",
+    "siec": "Rossmann"
+  },
+  {
+    "adres": "Warszawa, al. \"Solidarności\" 101",
+    "godziny": [
+      {
+        "Friday": "11:00 - 19:00",
+        "Monday": "11:00 - 19:00",
+        "Saturday": "10:00 - 14:00",
+        "Sunday": "brak danych",
+        "Thursday": "11:00 - 19:00",
+        "Tuesday": "11:00 - 19:00",
+        "Wednesday": "11:00 - 19:00"
+      }
+    ],
+    "latitude": "52.2427302",
+    "logo": "https://static.okazjum.pl/storage/okazjum/uploads/uploads/contractor/logo/118/s3_logo_ambra_siec-handlowa.jpg",
+    "longitude": "20.9968512",
+    "siec": "Ambra"
+  },
+  {
+    "adres": "Warszawa, ul. Marszałkowska 140",
+    "godziny": [
+      {
+        "Friday": "08:00 - 20:00",
+        "Monday": "08:00 - 20:00",
+        "Saturday": "09:00 - 15:00",
+        "Sunday": "brak danych",
+        "Thursday": "08:00 - 20:00",
+        "Tuesday": "08:00 - 20:00",
+        "Wednesday": "08:00 - 20:00"
+      }
+    ],
+    "latitude": "52.237179",
+    "logo": "https://static.okazjum.pl/storage/okazjum/uploads/uploads/contractor/logo/181/s3_logo_ziko-apteka_siec-handlowa.jpg",
+    "longitude": "21.007818",
+    "siec": "Ziko Apteka"
+  },
+  {
+    "adres": "Warszawa, pl. Mirowski 1",
+    "godziny": [
+      {
+        "Friday": "24h",
+        "Monday": "24h",
+        "Saturday": "24h",
+        "Sunday": "24h",
+        "Thursday": "24h",
+        "Tuesday": "24h",
+        "Wednesday": "24h"
+      }
+    ],
+    "latitude": "52.238844",
+    "logo": "https://static.okazjum.pl/storage/okazjum/uploads/uploads/contractor/logo/251/s3_logo_apteki-24h_siec-handlowa.jpg",
+    "longitude": "20.9973919",
+    "siec": "Apteki 24h"
+  },
+  {
+    "adres": "Warszawa, ul. Chłodna 20",
+    "godziny": [
+      {
+        "Friday": "08:00 - 22:00",
+        "Monday": "08:00 - 22:00",
+        "Saturday": "08:00 - 22:00",
+        "Sunday": "08:00 - 22:00",
+        "Thursday": "08:00 - 22:00",
+        "Tuesday": "08:00 - 22:00",
+        "Wednesday": "08:00 - 22:00"
+      }
+    ],
+    "latitude": "52.2377248",
+    "logo": "https://static.okazjum.pl/storage/okazjum/uploads/uploads/contractor/logo/132/s3_logo_dbam-o-zdrowie_siec-handlowa.jpg",
+    "longitude": "20.990276",
+    "siec": "Dbam o Zdrowie"
+  },
+  {
+    "adres": "Warszawa, al. \"Solidarności\" 113",
+    "godziny": [
+      {
+        "Friday": "08:00 - 21:00",
+        "Monday": "08:00 - 21:00",
+        "Saturday": "09:00 - 16:00",
+        "Sunday": "brak danych",
+        "Thursday": "08:00 - 21:00",
+        "Tuesday": "08:00 - 21:00",
+        "Wednesday": "08:00 - 21:00"
+      }
+    ],
+    "latitude": "52.2422353",
+    "logo": "https://static.okazjum.pl/storage/okazjum/uploads/uploads/contractor/logo/132/s3_logo_dbam-o-zdrowie_siec-handlowa.jpg",
+    "longitude": "20.9954174",
+    "siec": "Dbam o Zdrowie"
+  },
+  {
+    "adres": "Warszawa, al. \"Solidarności\" 62",
+    "godziny": [
+      {
+        "Friday": "24h",
+        "Monday": "24h",
+        "Saturday": "24h",
+        "Sunday": "24h",
+        "Thursday": "24h",
+        "Tuesday": "24h",
+        "Wednesday": "24h"
+      }
+    ],
+    "latitude": "52.2454139",
+    "logo": "https://static.okazjum.pl/storage/okazjum/uploads/uploads/contractor/logo/252/s3_logo_sklepy-24h_siec-handlowa.jpg",
+    "longitude": "21.004177",
+    "siec": "Sklepy 24h"
+  },
+  {
+    "adres": "Warszawa, al. Jana Pawła II 43a",
+    "godziny": [
+      {
+        "Friday": "24h",
+        "Monday": "24h",
+        "Saturday": "24h",
+        "Sunday": "24h",
+        "Thursday": "24h",
+        "Tuesday": "24h",
+        "Wednesday": "24h"
+      }
+    ],
+    "latitude": "52.243237",
+    "logo": "https://static.okazjum.pl/storage/okazjum/uploads/uploads/contractor/logo/252/s3_logo_sklepy-24h_siec-handlowa.jpg",
+    "longitude": "20.9916789",
+    "siec": "Sklepy 24h"
+  },
+  {
+    "adres": "Warszawa, ul. Grzybowska 34",
+    "godziny": [
+      {
+        "Friday": "07:00 - 19:00",
+        "Monday": "07:00 - 19:00",
+        "Saturday": "08:00 - 14:00",
+        "Sunday": "brak danych",
+        "Thursday": "07:00 - 19:00",
+        "Tuesday": "07:00 - 19:00",
+        "Wednesday": "07:00 - 19:00"
+      }
+    ],
+    "latitude": "52.235777",
+    "logo": "https://static.okazjum.pl/storage/okazjum/uploads/uploads/contractor/logo/31/s3_logo_euro-apteka_siec-handlowa.jpg",
+    "longitude": "20.994077",
+    "siec": "Euro Apteka"
+  },
+  {
+    "adres": "Warszawa, ul. Mordechaja Anielewicza 2",
+    "godziny": [
+      {
+        "Friday": "08:00 - 20:00",
+        "Monday": "08:00 - 20:00",
+        "Saturday": "08:00 - 14:00",
+        "Sunday": "brak danych",
+        "Thursday": "08:00 - 20:00",
+        "Tuesday": "08:00 - 20:00",
+        "Wednesday": "08:00 - 20:00"
+      }
+    ],
+    "latitude": "52.2494648",
+    "logo": "https://static.okazjum.pl/storage/okazjum/uploads/uploads/contractor/logo/129/logo_carrefour_siec-handlowa_C4-logo-nowy-claim-poziom.jpg.jpg",
+    "longitude": "20.9976905",
+    "siec": "Carrefour"
+  },
+  {
+    "adres": "Warszawa, ul. Mordechaja Anielewicza 22",
+    "godziny": [
+      {
+        "Friday": "07:00 - 22:00",
+        "Monday": "07:00 - 22:00",
+        "Saturday": "07:00 - 22:00",
+        "Sunday": "09:00 - 18:00",
+        "Thursday": "07:00 - 22:00",
+        "Tuesday": "07:00 - 22:00",
+        "Wednesday": "07:00 - 22:00"
+      }
+    ],
+    "latitude": "52.24666",
+    "logo": "https://static.okazjum.pl/storage/okazjum/uploads/uploads/contractor/logo/256/s3_logo_ml-delikatesy_siec-handlowa.jpg",
+    "longitude": "20.9855634",
+    "siec": "M&L Delikatesy"
+  },
+  {
+    "adres": "Warszawa, ul. Chłodna 11",
+    "godziny": [
+      {
+        "Friday": "06:00 - 23:00",
+        "Monday": "06:00 - 23:00",
+        "Saturday": "06:00 - 23:00",
+        "Sunday": "06:00 - 23:00",
+        "Thursday": "06:00 - 23:00",
+        "Tuesday": "06:00 - 23:00",
+        "Wednesday": "06:00 - 23:00"
+      }
+    ],
+    "latitude": "52.23733",
+    "logo": "https://static.okazjum.pl/storage/okazjum/uploads/uploads/contractor/logo/279/s3_logo_freshmarket_siec-handlowa.jpg",
+    "longitude": "20.9920379",
+    "siec": "Freshmarket"
+  },
+  {
+    "adres": "Warszawa, al. Jana Pawła II 43A lok.32",
+    "godziny": [
+      {
+        "Friday": "10:00 - 19:00",
+        "Monday": "10:00 - 19:00",
+        "Saturday": "10:00 - 16:00",
+        "Sunday": "brak danych",
+        "Thursday": "10:00 - 19:00",
+        "Tuesday": "10:00 - 19:00",
+        "Wednesday": "10:00 - 19:00"
+      }
+    ],
+    "latitude": "52.243237",
+    "logo": "https://static.okazjum.pl/storage/okazjum/uploads/uploads/contractor/logo/281/s3_logo_play_siec-handlowa.jpg",
+    "longitude": "20.9916789",
+    "siec": "Play"
+  },
+  {
+    "adres": "Warszawa, ul. Grzybowska 32",
+    "godziny": [
+      {
+        "Friday": "07:00 - 21:00",
+        "Monday": "07:00 - 21:00",
+        "Saturday": "07:00 - 21:00",
+        "Sunday": "09:00 - 20:00",
+        "Thursday": "07:00 - 21:00",
+        "Tuesday": "07:00 - 21:00",
+        "Wednesday": "07:00 - 21:00"
+      }
+    ],
+    "latitude": "52.2358646",
+    "logo": "https://static.okazjum.pl/storage/okazjum/uploads/uploads/contractor/logo/13/s3_logo_biedronka_siec-handlowa.jpg",
+    "longitude": "20.9948504",
+    "siec": "Biedronka"
+  },
+  {
+    "adres": "Warszawa, pl. Bankowy 2",
+    "godziny": [
+      {
+        "Friday": "07:30 - 21:00",
+        "Monday": "07:30 - 21:00",
+        "Saturday": "08:30 - 18:00",
+        "Sunday": "brak danych",
+        "Thursday": "07:30 - 21:00",
+        "Tuesday": "07:30 - 21:00",
+        "Wednesday": "07:30 - 21:00"
+      }
+    ],
+    "latitude": "52.244077",
+    "logo": "https://static.okazjum.pl/storage/okazjum/uploads/uploads/contractor/logo/75/s3_logo_rossmann_siec-handlowa.jpg",
+    "longitude": "21.00243",
+    "siec": "Rossmann"
+  },
+  {
+    "adres": "Warszawa, ul. Ogrodowa 32",
+    "godziny": [
+      {
+        "Friday": "brak danych",
+        "Monday": "brak danych",
+        "Saturday": "brak danych",
+        "Sunday": "brak danych",
+        "Thursday": "brak danych",
+        "Tuesday": "brak danych",
+        "Wednesday": "brak danych"
+      }
+    ],
+    "latitude": "52.2390599",
+    "logo": "https://static.okazjum.pl/storage/okazjum/uploads/uploads/contractor/logo/92/s3_logo_top-market_siec-handlowa.jpg",
+    "longitude": "20.9883649",
+    "siec": "Top Market"
+  },
+  {
+    "adres": "Warszawa, ul. Wałowa 7",
+    "godziny": [
+      {
+        "Friday": "brak danych",
+        "Monday": "brak danych",
+        "Saturday": "brak danych",
+        "Sunday": "brak danych",
+        "Thursday": "brak danych",
+        "Tuesday": "brak danych",
+        "Wednesday": "brak danych"
+      }
+    ],
+    "latitude": "52.2510539",
+    "logo": "https://static.okazjum.pl/storage/okazjum/uploads/uploads/contractor/logo/92/s3_logo_top-market_siec-handlowa.jpg",
+    "longitude": "20.9996869",
+    "siec": "Top Market"
+  },
+  {
+    "adres": "Warszawa, ul. Grzybowska 46",
+    "godziny": [
+      {
+        "Friday": "brak danych",
+        "Monday": "brak danych",
+        "Saturday": "brak danych",
+        "Sunday": "brak danych",
+        "Thursday": "brak danych",
+        "Tuesday": "brak danych",
+        "Wednesday": "brak danych"
+      }
+    ],
+    "latitude": "52.2350308",
+    "logo": "https://static.okazjum.pl/storage/okazjum/uploads/uploads/contractor/logo/92/s3_logo_top-market_siec-handlowa.jpg",
+    "longitude": "20.9917935",
+    "siec": "Top Market"
+  },
+  {
+    "adres": "Warszawa, ul. Smocza 3",
+    "godziny": [
+      {
+        "Friday": "07:00 - 22:00",
+        "Monday": "07:00 - 22:00",
+        "Saturday": "07:00 - 22:00",
+        "Sunday": "09:00 - 22:00",
+        "Thursday": "07:00 - 22:00",
+        "Tuesday": "07:00 - 22:00",
+        "Wednesday": "07:00 - 22:00"
+      }
+    ],
+    "latitude": "52.2429149",
+    "logo": "https://static.okazjum.pl/storage/okazjum/uploads/uploads/contractor/logo/147/s3_logo_minuta-8_siec-handlowa.jpg",
+    "longitude": "20.986797",
+    "siec": "Minuta 8"
+  },
+  {
+    "adres": "Warszawa, ul. Nowolipki 25",
+    "godziny": [
+      {
+        "Friday": "06:00 - 22:00",
+        "Monday": "06:00 - 22:00",
+        "Saturday": "06:00 - 22:00",
+        "Sunday": "08:00 - 20:00",
+        "Thursday": "06:00 - 22:00",
+        "Tuesday": "06:00 - 22:00",
+        "Wednesday": "06:00 - 22:00"
+      }
+    ],
+    "latitude": "52.2429069",
+    "logo": "https://static.okazjum.pl/storage/okazjum/uploads/uploads/contractor/logo/147/s3_logo_minuta-8_siec-handlowa.jpg",
+    "longitude": "20.986074",
+    "siec": "Minuta 8"
+  },
+  {
+    "adres": "Warszawa, ul. Marszałkowska 111A",
+    "godziny": [
+      {
+        "Friday": "10:00 - 18:00",
+        "Monday": "10:00 - 18:00",
+        "Saturday": "10:00 - 14:00",
+        "Sunday": "brak danych",
+        "Thursday": "10:00 - 18:00",
+        "Tuesday": "10:00 - 18:00",
+        "Wednesday": "10:00 - 18:00"
+      }
+    ],
+    "latitude": "52.2391369",
+    "logo": "https://static.okazjum.pl/storage/okazjum/uploads/uploads/contractor/logo/6/s3_logo_alsen_siec-handlowa.jpg",
+    "longitude": "21.0039764",
+    "siec": "Alsen"
+  },
+  {
+    "adres": "Warszawa, al. Jana Pawła II 29",
+    "godziny": [
+      {
+        "Friday": "06:00 - 23:00",
+        "Monday": "06:00 - 23:00",
+        "Saturday": "06:00 - 23:00",
+        "Sunday": "06:00 - 23:00",
+        "Thursday": "06:00 - 23:00",
+        "Tuesday": "06:00 - 23:00",
+        "Wednesday": "06:00 - 23:00"
+      }
+    ],
+    "latitude": "52.2389356",
+    "logo": "https://static.okazjum.pl/storage/okazjum/uploads/uploads/contractor/logo/279/s3_logo_freshmarket_siec-handlowa.jpg",
+    "longitude": "20.9952166",
+    "siec": "Freshmarket"
+  },
+  {
+    "adres": "Warszawa, ul. Antoniego Corazziego 2",
+    "godziny": [
+      {
+        "Friday": "06:00 - 23:00",
+        "Monday": "06:00 - 23:00",
+        "Saturday": "06:00 - 23:00",
+        "Sunday": "06:00 - 23:00",
+        "Thursday": "06:00 - 23:00",
+        "Tuesday": "06:00 - 23:00",
+        "Wednesday": "06:00 - 23:00"
+      }
+    ],
+    "latitude": "52.2445036",
+    "logo": "https://static.okazjum.pl/storage/okazjum/uploads/uploads/contractor/logo/279/s3_logo_freshmarket_siec-handlowa.jpg",
+    "longitude": "21.0044298",
+    "siec": "Freshmarket"
+  },
+  {
+    "adres": "Warszawa, ul. Nowolipki 14",
+    "godziny": [
+      {
+        "Friday": "06:00 - 23:00",
+        "Monday": "06:00 - 23:00",
+        "Saturday": "06:00 - 23:00",
+        "Sunday": "06:00 - 23:00",
+        "Thursday": "06:00 - 23:00",
+        "Tuesday": "06:00 - 23:00",
+        "Wednesday": "06:00 - 23:00"
+      }
+    ],
+    "latitude": "52.244656",
+    "logo": "https://static.okazjum.pl/storage/okazjum/uploads/uploads/contractor/logo/279/s3_logo_freshmarket_siec-handlowa.jpg",
+    "longitude": "20.990211",
+    "siec": "Freshmarket"
+  },
+  {
+    "adres": "Warszawa, al. Solidarności 117",
+    "godziny": [
+      {
+        "Friday": "07:00 - 02:00",
+        "Monday": "07:00 - 02:00",
+        "Saturday": "07:00 - 02:00",
+        "Sunday": "07:00 - 02:00",
+        "Thursday": "07:00 - 02:00",
+        "Tuesday": "07:00 - 02:00",
+        "Wednesday": "07:00 - 02:00"
+      }
+    ],
+    "latitude": "52.2418915",
+    "logo": "https://static.okazjum.pl/storage/okazjum/uploads/uploads/contractor/logo/438/logo_mcdonald_siec-handlowa_350x350-mc-d.jpg.jpg",
+    "longitude": "20.9943292",
+    "siec": "McDonald's"
+  },
+  {
+    "adres": "Warszawa, al. Solidarności 82",
+    "godziny": [
+      {
+        "Friday": "08:00 - 24:00",
+        "Monday": "08:00 - 24:00",
+        "Saturday": "09:00 - 24:00",
+        "Sunday": "09:00 - 24:00",
+        "Thursday": "08:00 - 24:00",
+        "Tuesday": "08:00 - 24:00",
+        "Wednesday": "08:00 - 24:00"
+      }
+    ],
+    "latitude": "52.242491",
+    "logo": "https://static.okazjum.pl/storage/okazjum/uploads/uploads/contractor/logo/437/logo_kfc_siec-handlowa_350x350-kfc.jpg.jpg",
+    "longitude": "20.9944229",
+    "siec": "KFC"
+  },
+  {
+    "adres": "Warszawa, al. Solidarności 68A",
+    "godziny": [
+      {
+        "Friday": "08:00 - 03:00",
+        "Monday": "08:00 - 03:00",
+        "Saturday": "08:00 - 03:00",
+        "Sunday": "08:00 - 03:00",
+        "Thursday": "08:00 - 03:00",
+        "Tuesday": "08:00 - 03:00",
+        "Wednesday": "08:00 - 03:00"
+      }
+    ],
+    "latitude": "52.2451109",
+    "logo": "https://static.okazjum.pl/storage/okazjum/uploads/uploads/contractor/logo/437/logo_kfc_siec-handlowa_350x350-kfc.jpg.jpg",
+    "longitude": "21.001842",
+    "siec": "KFC"
+  }
+]
