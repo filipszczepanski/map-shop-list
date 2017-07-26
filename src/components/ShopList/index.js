@@ -1,13 +1,11 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
-
-import ShopListItem from './ShopListItem';
-
+import ShopListItem from '../ShopListItem';
+import './style.css'
 
 class ShopList extends Component {
 
   render() {
-
     const shopsData = this.props.shopsData;
     const shopListItems = shopsData.map((item, index) => {
       return (
@@ -16,10 +14,10 @@ class ShopList extends Component {
     })
 
     return (
-      <ul>
+      <ul className="ShopList">
         {shopListItems}
       </ul>
-    )
+    );
   }
 }
 
