@@ -33,10 +33,10 @@ class Map extends Component {
     const map = this.map;
     const position = this.parsePosition(currentShopInfo);
     const { logo } = currentShopInfo;
-    const marker = new CustomMarker(position, logo, map);
+    const name = currentShopInfo.siec;
+    const marker = new CustomMarker(position, logo, map, name);
 
     const address = currentShopInfo.adres;
-    const name = currentShopInfo.siec;
     const openHoursArr = currentShopInfo.godziny;
     const openHours = openHoursArr.length === 1 ? openHoursArr[0] : null;
     const infoWindowProps = {name, address,logo, openHours}

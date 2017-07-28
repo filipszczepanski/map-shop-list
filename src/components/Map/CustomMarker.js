@@ -1,8 +1,9 @@
 export default class CustomMarker extends window.google.maps.OverlayView {
-  constructor(position, image, map) {
+  constructor(position, image, map, name) {
     super();
     this.position_ = position;
     this.image_ = image;
+    this.name_ = name;
     this.map_ = map;
     this.div_ = null;
 
@@ -50,14 +51,23 @@ export default class CustomMarker extends window.google.maps.OverlayView {
     wrapArrow.appendChild(arrow);
     div.appendChild(wrapArrow);
 
-    // Create the img element and attach it to the div.
-    var img = document.createElement('img');
-    img.style.position = 'relative';
-    img.src = this.image_;
-    img.style.maxWidth = '100%';
-    img.style.maxHeight = '100%';
-    img.style.verticalAlign = 'baseline';
-    div.appendChild(img);
+    var title = document.createElement('h2');
+    title.style.position = 'relative';
+    title.textContent = this.name_;
+    div.appendChild(title);
+
+    if (this.image_) {
+      var img = document.createElement('img');
+      img.style.position = 'relative';
+      img.src = this.image_;
+      img.style.maxWidth = '100%';
+      img.style.maxHeight = '100%';
+      img.style.verticalAlign = 'baseline';
+      img.onload = () =>{
+        title.style.display = 'none';
+        div.appendChild(img);
+      }
+    }
 
     this.div_ = div;
 

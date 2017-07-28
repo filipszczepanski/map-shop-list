@@ -11,7 +11,7 @@ const WindowInfo = ({name, address, logo, openHours}) => {
   return (
     <div id="content" style={style}>
       <h2 id="firstHeading" className="firstHeading">
-        {logo ? <img src={logo} height="20" alt={name} /> : null}  {name}
+        {logo && <img src={logo} height="20" alt={name} />}  {name}
       </h2>
       <div id="bodyContent">
         <p>{address}</p>

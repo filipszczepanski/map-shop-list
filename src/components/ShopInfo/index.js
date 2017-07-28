@@ -8,8 +8,6 @@ const ShopInfo = ( {logo, name, siec, adres, godziny, onClick}) => {
 
   if (logo) {
     image = <img src={logo} height="20" alt={name} />;
-  } else {
-    image = <span className="noimage">no image</span>;
   }
 
   return (
