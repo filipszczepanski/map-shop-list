@@ -1,8 +1,7 @@
 import React, { Component } from 'react';
-import ReactDOMServer from 'react-dom/server';
 import { connect } from 'react-redux';
+import CustomMarker from './CustomMarker';
 import { setChoosedShopItem } from '../../actions/shopListItems';
-
 import './style.css';
 
 class Map extends Component {
@@ -18,6 +17,29 @@ class Map extends Component {
        center: this.position,
        zoom: 18
     });
+    this.renderMarkers()
+  }
+
+  renderMarkers() {
+    this.markers = this.props.shopListData.map( (currentShopInfo, index) => {
+      return this.renderMarker(currentShopInfo, index)
+    });
+  }
+
+  renderMarker(currentShopInfo, id) {
+
+    const map = this.map;
+    const position = this.parsePosition(currentShopInfo);
+    const { logo } = currentShopInfo;
+    const marker = new CustomMarker(position, logo, map);
+
+    marker.addListener('click', () => {
+      this.props.onClickMarker(id);
+    });
+
+    marker.setMap(map);
+    return marker;
+
   }
 
   getCurrentPosition() {
@@ -58,7 +80,9 @@ const mapStateToProps = state => {
 
 const mapDispatchToProps = dispatch => {
   return {
-
+    onClickMarker: (id)=> {
+      dispatch(setChoosedShopItem(id))
+    }
   }
 }
 
