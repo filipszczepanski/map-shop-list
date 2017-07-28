@@ -10,3 +10,9 @@
   top: 50%;
   width: auto;
 }
+
+@media screen and (max-width: 675px) {
+  .ShopInfo {
+    display: none
+  }
+}
