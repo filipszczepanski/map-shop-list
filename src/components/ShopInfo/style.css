@@ -1,0 +1,12 @@
+.ShopInfo {
+  background-color: rgba(255,255,255,0.8);
+  border-radius: 5px;
+  border:none;
+  display: inline-block;
+  padding: 20px;
+  position: fixed;
+  right: 0;
+  text-align: left;
+  top: 50%;
+  width: auto;
+}
