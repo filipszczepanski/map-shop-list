@@ -1,20 +1,21 @@
 import React, { Component } from 'react';
 import { Provider } from 'react-redux';
 import store from '../store'
-import ShopList from '../components/ShopList';
-import ShopInfo from '../components/ShopInfo';
-import Map from '../components/Map';
+import { getShopListData } from '../actions/shopListItems';
+import Layout from '../components/Layout'
 import './App.css';
 
+const SHOP_LIST_DATA_SRC = 'data/example.json';
+
 class App extends Component {
+  constructor() {
+    super()
+    store.dispatch(getShopListData(SHOP_LIST_DATA_SRC));
+  }
   render() {
     return (
       <Provider store={store}>
-        <div className="App">
-          <Map />
-          <ShopList />
-          <ShopInfo />
-        </div>
+        <Layout />
       </Provider>
     );
   }

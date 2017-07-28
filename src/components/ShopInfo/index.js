@@ -22,8 +22,7 @@ const ShopInfo = ( {logo, name, siec, adres, godziny, onClick}) => {
 }
 
 const mapStateToProps = state => {
-  const props = state.shopListData[state.shopList.choosed];
-  console.log(state);
+  const props = state.shopListData.data[state.shopList.choosed];
   return {
     ...props
   }

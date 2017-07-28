@@ -87,8 +87,8 @@ class Map extends Component {
 
 const mapStateToProps = state => {
   return {
-    currentShopInfo: state.shopListData[state.shopList.choosed],
-    shopListData: state.shopListData,
+    currentShopInfo: state.shopListData.data[state.shopList.choosed],
+    shopListData: state.shopListData.data,
     choosed: state.shopList.choosed
   }
 }

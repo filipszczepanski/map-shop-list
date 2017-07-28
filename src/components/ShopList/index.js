@@ -8,9 +8,9 @@ import './style.css';
 class ShopList extends Component {
 
   render() {
-    const shopListData = this.props.shopListData;
-    const shopListItems = shopListData.map((item, index) => {
-      const isChecked = this.props.shopList.choosed === index;
+    const data = this.props.data;
+    const shopListItems = data.map((item, index) => {
+      const isChecked = this.props.choosed === index;
       return (
         <ShopListItem key={index} name={item.siec} address={item.adres} logo={item.logo} onClick={()=>this.props.onClickShopListItem(index)} isChecked={isChecked}/>
       )
@@ -26,7 +26,8 @@ class ShopList extends Component {
 
 const mapStateToProps = state => {
   return {
-    ...state
+    ...state.shopList,
+    ...state.shopListData
   };
 }
 
