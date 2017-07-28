@@ -1,5 +1,6 @@
 import React from 'react';
 import { connect } from 'react-redux';
+import OpenHours from '../OpenHours';
 import './style.css';
 
 const ShopInfo = ( {logo, name, siec, adres, godziny, onClick}) => {
@@ -15,6 +16,7 @@ const ShopInfo = ( {logo, name, siec, adres, godziny, onClick}) => {
     <div className="ShopInfo" onClick={onClick}>
       {image} {siec}
       <p>{adres}</p>
+      <OpenHours openHours={godziny[0]} />
     </div>
   );
 }
