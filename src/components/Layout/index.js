@@ -9,14 +9,18 @@ class Layout extends Component {
     this.props.onLoad();
   }
 
+  _isLoaded() {
+    return this.props.data.length > 0;
+  }
+
   render() {
-    const { isLoaded, isLoading, error } = this.props;
+    const { isLoading, error } = this.props;
     const styleBoxCenter = {display:'flex', alignItems:'center', justifyContent:'center', position:'absolute', width:'100%',height:'100%'};
     const failedStyleBox = Object.assign({}, styleBoxCenter, {color: 'red'});
     return (
       <div>
         {
-          isLoaded &&
+          this._isLoaded() &&
           <div>
             <Map />
             <ShopList />
@@ -44,6 +48,7 @@ class Layout extends Component {
 }
 
 const mapStateToProps = state => {
+  console.log(...state.shopListData);
   return {
     ...state.shopListData
   }

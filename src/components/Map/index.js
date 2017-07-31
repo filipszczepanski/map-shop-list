@@ -3,7 +3,7 @@ import ReactDOMServer from 'react-dom/server';
 import { connect } from 'react-redux';
 import CustomMarker from './CustomMarker';
 import InfoWindow from '../InfoWindow';
-import { setChoosedShopItem } from '../../actions/shopListItems';
+import { setChoosedShopItem } from '../../actions/shopList';
 import './style.css';
 
 class Map extends Component {

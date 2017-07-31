@@ -1,14 +1,6 @@
-export const SET_CHOOSED_SHOP_ITEM = 'SET_CHOOSED_SHOP_ITEM';
 export const SHOP_LIST_DATA_REQUESTED = 'SHOP_LIST_DATA_REQUESTED';
 export const SHOP_LIST_DATA_LOADED = 'SHOP_LIST_DATA_LOADED';
 export const SHOP_LIST_DATA_FAILED = 'SHOP_LIST_DATA_FAILED';
-
-export function setChoosedShopItem(id) {
-  return {
-    type: SET_CHOOSED_SHOP_ITEM,
-    id
-  }
-}
 
 export function shopListDataRequested() {
   return {

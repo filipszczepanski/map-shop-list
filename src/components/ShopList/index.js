@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
 import ShopListItem from '../ShopListItem';
-import { setChoosedShopItem } from '../../actions/shopListItems';
+import { setChoosedShopItem } from '../../actions/shopList';
 import './style.css';
 
 
