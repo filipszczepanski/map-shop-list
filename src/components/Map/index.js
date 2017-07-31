@@ -1,31 +1,40 @@
 import React, { Component } from 'react';
 import ReactDOMServer from 'react-dom/server';
 import { connect } from 'react-redux';
-import CustomMarker from './CustomMarker';
-import InfoWindow from '../InfoWindow';
+import { getGoogleMaps } from '../../actions/googleMaps';
 import { setChoosedShopItem } from '../../actions/shopList';
+import MarkerFactory from './MarkerFactory';
+import InfoWindow from '../InfoWindow';
 import './style.css';
+
+const GOOGLE_MAPS_KEY = 'AIzaSyAYNZNGTHsCS6dHRf67nbepeteMI8_qigI';
+const GOOGLE_MAPS_SRC = `https://maps.googleapis.com/maps/api/js?key=${GOOGLE_MAPS_KEY}&v=3.28`;
 
 class Map extends Component {
 
-  componentDidMount() {
-    const currentShopInfo = this.props.currentShopInfo;
-    this.position = this.parsePosition(currentShopInfo);
-    this.initMap()
+  constructor(props) {
+    super();
+    props.onConstructing(GOOGLE_MAPS_SRC);
+    this.position = this.parsePosition(props.currentShopInfo);
+  }
+
+  componentDidUpdate() {
+    if (this.props.googleMaps.maps && !this.map) {
+      this.initMap();
+    }
   }
 
   initMap() {
-    this.map = new window.google.maps.Map(this.refs.map, {
-       center: this.position,
-       zoom: 18
+    this.map = new this.props.googleMaps.maps.Map(this.refs.map, {
+      center: this.position,
+      zoom: 18
     });
-    this.renderMarkers()
+
+    this.renderMarkers();
   }
 
   renderMarkers() {
-    this.markers = this.props.shopListData.map( (currentShopInfo, index) => {
-      return this.renderMarker(currentShopInfo, index)
-    });
+    this.props.shopListData.forEach(this.renderMarker.bind(this));
   }
 
   renderMarker(currentShopInfo, id) {
@@ -34,27 +43,28 @@ class Map extends Component {
     const position = this.parsePosition(currentShopInfo);
     const { logo } = currentShopInfo;
     const name = currentShopInfo.siec;
-    const marker = new CustomMarker(position, logo, map, name);
+    const googleMaps = this.props.googleMaps;
+
+    const marker = MarkerFactory.createMarker(position, logo, map, name, googleMaps);
 
     const address = currentShopInfo.adres;
     const openHoursArr = currentShopInfo.godziny;
     const openHours = openHoursArr.length === 1 ? openHoursArr[0] : null;
     const infoWindowProps = {name, address,logo, openHours}
 
-    const infowindow = new window.google.maps.InfoWindow({
+    const infowindow = new this.props.googleMaps.maps.InfoWindow({
       content: ReactDOMServer.renderToStaticMarkup(<InfoWindow {...infoWindowProps}/>),
       position,
-      pixelOffset: new window.google.maps.Size(0, -80)
+      pixelOffset: new this.props.googleMaps.maps.Size(0, -80)
     });
 
     marker.addListener('click', () => {
       infowindow.open(this.map);
       this.props.onClickMarker(id);
+      console.log(id);
     });
 
-    marker.setMap(map);
     return marker;
-
   }
 
   getCurrentPosition() {
@@ -63,8 +73,8 @@ class Map extends Component {
 
   parsePosition(currentShopInfo) {
     return {
-     lat: parseFloat(currentShopInfo.latitude),
-     lng: parseFloat(currentShopInfo.longitude)
+      lat: parseFloat(currentShopInfo.latitude),
+      lng: parseFloat(currentShopInfo.longitude)
     }
   }
 
@@ -73,12 +83,13 @@ class Map extends Component {
   }
 
   render() {
+
     if (this.map) {
       this.centerMap();
     }
 
     return (
-      <div id="Map" className="Map" ref="map" >
+      <div id="Map" className="Map" ref="map">
         Loading map...
       </div>
     )
@@ -87,19 +98,24 @@ class Map extends Component {
 
 const mapStateToProps = state => {
   return {
-    currentShopInfo: state.shopListData.data[state.shopList.choosed],
+    googleMaps: state.googleMaps,
     shopListData: state.shopListData.data,
-    choosed: state.shopList.choosed
+    choosed: state.shopList.choosed,
+    currentShopInfo: state.shopListData.data[state.shopList.choosed]
   }
-}
+};
 
 const mapDispatchToProps = dispatch => {
   return {
-    onClickMarker: (id)=> {
+    onConstructing: (src) => {
+      dispatch(getGoogleMaps(src));
+    },
+
+    onClickMarker: (id) => {
       dispatch(setChoosedShopItem(id))
     }
   }
-}
+};
 
 Map = connect(mapStateToProps, mapDispatchToProps)(Map);
 

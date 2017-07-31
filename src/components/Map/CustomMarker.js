@@ -1,16 +1,14 @@
-export default class CustomMarker extends window.google.maps.OverlayView {
-  constructor(position, image, map, name) {
-    super();
+class CustomMarker {
+  constructor(position, image, map, name, maps) {
     this.position_ = position;
     this.image_ = image;
-    this.name_ = name;
     this.map_ = map;
+    this.name_ = name;
+    this.maps_ = maps;
     this.div_ = null;
-
-    this.setMap(map);
   }
 
-  onAdd() {
+  _setupDOM() {
     const div = document.createElement('div');
     div.style.display = 'flex';
     div.style.alignItems = 'center';
@@ -46,18 +44,18 @@ export default class CustomMarker extends window.google.maps.OverlayView {
     arrow.style.height = '30px';
     arrow.style.backgroundColor = '#fff';
     arrow.style.transform = 'rotate(45deg)';
-    arrow.style.boxShadow = div.style.boxShadow
+    arrow.style.boxShadow = div.style.boxShadow;
 
     wrapArrow.appendChild(arrow);
     div.appendChild(wrapArrow);
 
-    var title = document.createElement('h2');
+    const title = document.createElement('h2');
     title.style.position = 'relative';
     title.textContent = this.name_;
     div.appendChild(title);
 
     if (this.image_) {
-      var img = document.createElement('img');
+      const img = document.createElement('img');
       img.style.position = 'relative';
       img.src = this.image_;
       img.style.maxWidth = '100%';
@@ -70,16 +68,21 @@ export default class CustomMarker extends window.google.maps.OverlayView {
     }
 
     this.div_ = div;
+  }
+
+  onAdd() {
+    this._setupDOM();
 
     // Add the element to the "overlayImage" pane.
-    var panes = this.getPanes();
+    const panes = this.getPanes();
     panes.overlayImage.appendChild(this.div_);
-    this.addClickEvent();
+
+    this.setupClickListener();
   }
 
   draw() {
     const overlayProjection = this.getProjection();
-    const point = overlayProjection.fromLatLngToDivPixel(new window.google.maps.LatLng(this.position_));
+    const point = overlayProjection.fromLatLngToDivPixel(new this.maps_.LatLng(this.position_));
     const div = this.div_;
     const movedX = point.x - (div.style.width.replace('px', '') * 0.5);
     const movedY = point.y - div.style.height.replace('px', '') - 15;
@@ -90,11 +93,13 @@ export default class CustomMarker extends window.google.maps.OverlayView {
     div.style.transform = 'scale('+scale+')';
   }
 
-  addClickEvent() {
-    const div = this.div_;
-    window.google.maps.event.addDomListener(div, 'click', () => {
-      window.google.maps.event.trigger(this, 'click');
+  setupClickListener() {
+    this.maps_.event.addDomListener(this.div_, 'click', () => {
+      this.maps_.event.trigger(this, 'click');
+      console.log(this);
     });
   }
-
 }
+
+
+export default CustomMarker;
