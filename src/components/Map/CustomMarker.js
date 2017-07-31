@@ -96,7 +96,6 @@ class CustomMarker {
   setupClickListener() {
     this.maps_.event.addDomListener(this.div_, 'click', () => {
       this.maps_.event.trigger(this, 'click');
-      console.log(this);
     });
   }
 }

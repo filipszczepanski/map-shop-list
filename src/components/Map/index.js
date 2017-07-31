@@ -61,7 +61,6 @@ class Map extends Component {
     marker.addListener('click', () => {
       infowindow.open(this.map);
       this.props.onClickMarker(id);
-      console.log(id);
     });
 
     return marker;

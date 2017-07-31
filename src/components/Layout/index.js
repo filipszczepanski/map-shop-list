@@ -5,9 +5,6 @@ import ShopInfo from '../ShopInfo';
 import Map from '../Map';
 
 class Layout extends Component {
-  componentDidMount() {
-    this.props.onLoad();
-  }
 
   _isLoaded() {
     return this.props.data.length > 0;
@@ -48,19 +45,11 @@ class Layout extends Component {
 }
 
 const mapStateToProps = state => {
-  console.log(...state.shopListData);
   return {
     ...state.shopListData
   }
 }
-const mapDispatchToProps = dispatch => {
-  return {
-    onLoad: ()=>  {
 
-    }
-  }
-}
-
-Layout = connect(mapStateToProps, mapDispatchToProps)(Layout);
+Layout = connect(mapStateToProps)(Layout);
 
 export default Layout;
