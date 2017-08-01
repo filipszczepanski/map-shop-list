@@ -10,3 +10,49 @@
   width: 100%;
   z-index: 10;
 }
+
+.custom-marker {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  position: absolute;
+  background-color: #fff;
+  width: 160px;
+  height: 80px;
+  text-align: center;
+  line-height: 80px;
+  padding: 15px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 3px #c0c0c0;
+  cursor: pointer;
+}
+
+.custom-marker .custom-marker__image {
+  position: relative;
+  max-width: 90%;
+  max-height: 90%;
+}
+
+.custom-marker__arrow {
+  display: block;
+  width: 30px;
+  height: 15px;
+  overflow: hidden;
+  position: absolute;
+  bottom: -15px;
+  left: 50%;
+  margin-left: -15px;
+}
+
+.custom-marker__arrow:after {
+  content: '';
+  display: block;
+  position: relative;
+  top: -22px;
+  width: 30px;
+  height: 30px;
+  background-color: #fff;
+  transform: rotate(45deg);
+  box-shadow: 0px 0px 3px #c0c0c0;
+}
